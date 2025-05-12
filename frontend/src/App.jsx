@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Inbox from "./components/Inbox";
-import EmailGenerator from "./components/EmailGenerator";
+import EmailGenerator from "./components/emailGenerator";
 import HowItWorks from "./components/HowItsWork";
 import { Routes, Route } from "react-router-dom";
 import AboutUs from "./components/AboutUs";

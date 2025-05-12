@@ -60,18 +60,14 @@ export default function EmailGenerator() {
 
     try {
       setLoading(true);
-      const response = await API.post(`/custom`, {
-        body: JSON.stringify({ username: customMail }),
-        headers: {
-          "content-type": "application/json",
-          accept: "application/json",
-        },
+      setLoading(true);
+      const { data: response } = await API.post(`/custom`, {
+        username: customMail,
       });
 
-      if (!response.ok) {
-        console.error("An Error", await response.json());
-        return false;
-      }
+      localStorage.setItem("email", response.data);
+
+      setMail(response.data);
 
       const result = await response.json();
 

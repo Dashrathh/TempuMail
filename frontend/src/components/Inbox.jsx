@@ -57,8 +57,22 @@ export default function Inbox() {
 
             <div className="flex items-center justify-between">
               <div className="flex gap-4">
-                <div className="size-14 rounded-full bg-slate-200"></div>
-
+                <div className="relative size-12 sm:size-14 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 shadow-sm flex items-center justify-center">
+                  {selectedEmail.from ? (
+                    <span className="text-xl font-medium text-gray-700 uppercase">
+                      {selectedEmail.from
+                        .split("<")[0]
+                        .trim()
+                        .split(/\s+/)
+                        .map((n) => n[0])
+                        .join("")
+                        .slice(0, 2)}
+                    </span>
+                  ) : (
+                    <svg className="w-6 h-6 text-gray-400" />
+                  )}
+                  <div className="absolute inset-0 rounded-full shadow-inner" />
+                </div>
                 <div className="flex flex-col gap-2">
                   <div className="text-sm font-semibold">
                     {selectedEmail.from.split("<")[0]}
