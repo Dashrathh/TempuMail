@@ -95,6 +95,7 @@ export default function EmailGenerator() {
           <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
             Secure Mail Generator
           </span>
+          ``
         </h1>
 
         <div className="grid md:grid-cols-2 gap-6">
