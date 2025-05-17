@@ -157,16 +157,18 @@ export default function EmailGenerator() {
               Custom Email
             </h2>
             <div className="flex flex-col gap-4">
-              <div className="relative size-full flex items-center rounded-lg border border-gray-600 bg-gray-800 text-blue-100">
+              <div className="relative size-full flex flex-col md:flex-row    items-center rounded-lg border border-gray-600 bg-gray-800 text-blue-100">
                 <input
                   ref={customInputRef}
                   type="text"
                   value={loading ? "Generating..." : customMail}
                   onChange={(e) => setCustomMail(e.target.value)}
-                  className="w-full font-mono bg-transparent text-lg p-3 focus:outline-none focus:ring-1 focus:ring-blue-500 pr-20"
+                  className="w-full font-mono bg-transparent text-lg p-3 focus:outline-none focus:ring-1 focus:ring-blue- pr-0 md:pr-20"
                   placeholder="your name"
                 />
-                <div className="span p-3 cursor-not-allowed">@tempmail.sbs</div>
+                <div className="self-stretch md:self-auto p-3 cursor-not-allowed w-full md:w-auto text-gray-400">
+                  @tempmail.sbs
+                </div>
               </div>
               <button
                 onClick={generateCustomMail}
