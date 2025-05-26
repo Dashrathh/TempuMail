@@ -93,9 +93,8 @@ export default function EmailGenerator() {
 
         <h1 className="text-4xl font-bold text-center text-blue-400">
           <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-            Secure Mail Generator
+            TempMail Generator
           </span>
-          ``
         </h1>
 
         <div className="grid md:grid-cols-2 gap-6">
