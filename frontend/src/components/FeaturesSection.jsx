@@ -116,14 +116,14 @@ const FeaturesSection = () => {
         </div>
 
         {/* Optional: Add a small CTA at bottom */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <p className="text-gray-600 mb-4">
             Still have questions about our security?
           </p>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
             Contact Security Team
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
