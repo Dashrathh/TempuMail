@@ -43,14 +43,14 @@ const Footer = () => {
                 About Us
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
-                href="#"
+                href="/Privacy"
                 className="hover:text-blue-400 transition-colors duration-300"
               >
-                Contact
+                PrivacyPolicy
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
