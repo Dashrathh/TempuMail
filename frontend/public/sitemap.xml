@@ -15,7 +15,7 @@
 
   <!-- About Us Page -->
   <url>
-    <loc>https://www.tempmail.sbs/about</loc>
+    <loc>https://www.tempmail.sbs/aboutus</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -23,7 +23,7 @@
 
   <!-- How It Works Page -->
   <url>
-    <loc>https://www.tempmail.sbs/howitworks</loc>
+    <loc>https://www.tempmail.sbs/howitswork</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -40,11 +40,11 @@
   </url> -->
 
   <!-- FAQ Page (if exists) -->
-  <url>
+  <!-- <url>
     <loc>https://www.tempmail.sbs/faq</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
+  </url> -->
 
 </urlset>
