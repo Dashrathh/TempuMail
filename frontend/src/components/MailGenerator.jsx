@@ -193,7 +193,7 @@ export default function EmailGenerator() {
           </div>
           <div className="p-4 bg-gray-900/50 rounded-lg border border-gray-700">
             <h3 className="text-blue-400 font-medium">Temporary</h3>
-            <p className="text-sm text-gray-400 mt-1">Auto-deletes in 24h</p>
+            <p className="text-sm text-gray-400 mt-1">Auto-deletes in 1h</p>
           </div>
         </div>
 
