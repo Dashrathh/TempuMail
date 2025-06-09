@@ -1,15 +1,24 @@
+import { lazy } from "react";
 import Header from "./components/Header";
-import Inbox from "./components/Inbox";
-import EmailGenerator from "./components/MailGenerator.jsx";
+
+const Inbox = lazy(() => import("./components/Inbox"));
+// import Inbox from "./components/Inbox";
+const EmailGenerator = lazy(() => import("./components/MailGenerator.jsx"));
+// import EmailGenerator from "./components/MailGenerator.jsx";
+
 import HowItWorks from "./components/HowItsWork";
 import { Routes, Route } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import Privacy from "./components/Privacy.jsx";
 import Footer from "./components/Footer.jsx";
-import FeaturesSection from "./components/FeaturesSection.jsx";
-import HowToUseSection from "./components/HowToUseSection.jsx";
-import FaqSection from "./components/FaqSection.jsx";
-import WhyUseTempMail from "./components/WhyUseTempMail .jsx";
+const FeaturesSection = lazy(() => import("./components/FeaturesSection.jsx"));
+// import FeaturesSection from "./components/FeaturesSection.jsx";
+const HowToUseSection = lazy(() => import("./components/HowToUseSection.jsx"));
+// import HowToUseSection from "./components/HowToUseSection.jsx";
+const FaqSection = lazy(() => import("./components/FaqSection.jsx"));
+// import FaqSection from "./components/FaqSection.jsx";
+const WhyUseTempMail = lazy(() => import("./components/WhyUseTempMail .jsx"));
+// import WhyUseTempMail from "./components/WhyUseTempMail .jsx";
 export default function App() {
   return (
     <>
