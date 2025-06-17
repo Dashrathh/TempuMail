@@ -3,7 +3,7 @@ const blogData = [
     id: 2,
     slug: "welcome-to-tempmail",
     title:
-      "TempMail.sbs: Keep Your Inbox Clean with Disposable Email Solutions",
+      "TempMail.sbs: The Ultimate Disposable Email Solution for a Spam-Free Inbox",
     description:
       "Discover how TempMail.sbs helps thousands avoid spam with free disposable emails. Learn why we built this privacy-first temporary email service and how it protects your personal inbox.",
     content: `
