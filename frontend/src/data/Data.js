@@ -89,8 +89,6 @@ const blogData = [
     </footer>
   </article>
 `,
-    image: "/assets/blogs/welcome-tempmail.png",
-    date: "2025-06-17",
   },
 ];
 
