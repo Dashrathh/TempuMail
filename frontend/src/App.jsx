@@ -6,6 +6,9 @@ const Inbox = lazy(() => import("./components/Inbox"));
 const EmailGenerator = lazy(() => import("./components/MailGenerator.jsx"));
 // import EmailGenerator from "./components/MailGenerator.jsx";
 
+import BlogList from "./pages/BlogList.jsx";
+import BlogPage from "./pages/BlogPage.jsx";
+
 import HowItWorks from "./components/HowItsWork";
 import { Routes, Route } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
@@ -41,6 +44,8 @@ export default function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/howitswork" element={<HowItWorks />} />
         <Route path="/Privacy" element={<Privacy />} />
+        <Route path="/blogs" element={<BlogList />} />
+        <Route path="/blog/:slug" element={<BlogPage />} />
       </Routes>
 
       <Footer />

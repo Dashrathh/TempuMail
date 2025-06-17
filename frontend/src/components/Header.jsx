@@ -9,6 +9,12 @@ const Header = () => {
 
       <nav className="flex justify-center space-x-4 sm:space-x-6">
         <Link
+          to="/blogs"
+          className="text-white px-3 py-1 sm:px-4 sm:py-2 rounded-lg transition duration-200 hover:bg-white hover:text-black text-sm sm:text-base"
+        >
+          Blogs
+        </Link>
+        <Link
           to="/aboutus"
           className="text-white px-3 py-1 sm:px-4 sm:py-2 rounded-lg transition duration-200 hover:bg-white hover:text-black text-sm sm:text-base"
         >
