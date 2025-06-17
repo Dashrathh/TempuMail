@@ -62,13 +62,7 @@ const blogData = [
       </blockquote>
 
       <div class="flex flex-col md:flex-row items-center gap-6 mt-10 bg-gray-100 p-6 rounded-lg shadow">
-        <img 
-          src="/assets/blogs/welcome-tempmail.png" 
-          alt="TempMail.sbs interface showing temporary email generation" 
-          title="TempMail.sbs Disposable Email Service"
-          loading="lazy"
-          class="rounded-md w-full md:w-1/2 shadow"
-        />
+     
         <div class="text-center md:text-left">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-800 mb-2">Ready for a Cleaner Inbox?</h2>
           <p class="text-gray-700 mb-4 text-base sm:text-lg">Join thousands of smart users protecting their privacy daily.</p>
