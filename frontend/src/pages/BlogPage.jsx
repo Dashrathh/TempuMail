@@ -17,7 +17,7 @@ const BlogPage = () => {
       </Helmet>
 
       <h1 className="text-3xl font-bold mb-2">{blog.title}</h1>
-      <img src="/public/image.png" alt={blog.title} />
+      <img src="/image.png" alt={blog.title} />
       <p className="text-sm text-gray-500 mb-6">Published on {blog.date}</p>
       <div
         className="text-lg leading-relaxed text-gray-800 blog-content"
